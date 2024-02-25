@@ -1,2 +1,81 @@
-#file1
-Mr Apoti
+This is the Script as Requested my Mr. Kandy (My TL)
+ 
+ 
+ 
+>>Present DATE and TIME<<
+ 
+Sun Feb 25 22:12:47 UTC 2024
+ 
+ 
+ >>ID of the User<<
+ 
+uid=0(root) gid=0(root) groups=0(root)
+ 
+ 
+>>Memory of VM<<
+ 
+              total        used        free      shared  buff/cache   available
+Mem:           3908         300        2624           1         982        3334
+Swap:             0           0           0
+ 
+ 
+>>CPU of VM<<
+ 
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Byte Order:                         Little Endian
+Address sizes:                      48 bits physical, 48 bits virtual
+CPU(s):                             2
+On-line CPU(s) list:                0,1
+Thread(s) per core:                 2
+Core(s) per socket:                 1
+Socket(s):                          1
+NUMA node(s):                       1
+Vendor ID:                          AuthenticAMD
+CPU family:                         23
+Model:                              49
+Model name:                         AMD EPYC 7B12
+Stepping:                           0
+CPU MHz:                            2249.998
+BogoMIPS:                           4499.99
+Hypervisor vendor:                  KVM
+Virtualization type:                full
+L1d cache:                          32 KiB
+L1i cache:                          32 KiB
+L2 cache:                           512 KiB
+L3 cache:                           16 MiB
+NUMA node0 CPU(s):                  0,1
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt nrip_save umip rdpid
+ 
+ 
+>>Storage of VM<<
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       9.6G  3.6G  6.0G  37% /
+devtmpfs        2.0G     0  2.0G   0% /dev
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           391M  1.2M  390M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           2.0G     0  2.0G   0% /sys/fs/cgroup
+/dev/loop0       64M   64M     0 100% /snap/core20/2105
+/dev/loop1      374M  374M     0 100% /snap/google-cloud-cli/213
+/dev/loop2       92M   92M     0 100% /snap/lxd/24061
+/dev/loop3       41M   41M     0 100% /snap/snapd/20671
+/dev/sda15      105M  6.1M   99M   6% /boot/efi
+overlay         9.6G  3.6G  6.0G  37% /var/lib/docker/overlay2/c3e994c2528718bf42946a42b8a4095bb52cb5dcaf8bcda605ca9b4b58dbf63f/merged
+/dev/loop4       64M   64M     0 100% /snap/core20/2182
+overlay         9.6G  3.6G  6.0G  37% /var/lib/docker/overlay2/875302dc92456c3b4d10fc25370171437970ff3aa8352a2d25e1e08c197644c4/merged
+/dev/loop5      352M  352M     0 100% /snap/google-cloud-cli/217
+tmpfs           391M     0  391M   0% /run/user/1002
