@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Adding to Git Staging Area"
+git add file1
+
+echo "Commiting to the repository"
+git commit -m "Ticket-1588: Updated file with Date, Name of User, Memory, CPU, and Storage of VM"
+
+echo "Pushing to the repository"
+git push --set-upstream origin Ticket-1588

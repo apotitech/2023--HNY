@@ -1,0 +1,38 @@
+#!/bin/bash
+echo "This is the script as requested by Mr. Lionel (My Team Lead)" > file1
+
+echo " " >> file1
+echo " " >> file1
+echo " " >> file1
+
+echo ">>>Present DATE and TIME<<<" >> file1
+echo " " >> file1
+date >> file1
+
+echo " " >> file1
+echo " " >> file1
+
+echo ">>>ID of the user<<<" >> file1
+echo " " >> file1
+id >> file1
+
+echo " " >> file1
+echo " " >> file1
+
+echo ">>>Memory of VM<<<" >> file1
+echo " " >> file1
+free -m >> file1
+
+echo " " >> file1
+echo " " >> file1
+
+echo ">>>CPU of VM<<<" >> file1
+echo " " >> file1
+lscpu >> file1
+
+echo " " >> file1
+echo " " >> file1
+
+echo ">>>Storage of VM<<<" >> file1
+echo " " >> file1
+df -h >> file1
